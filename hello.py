@@ -4,7 +4,7 @@ with open('data.txt') as file:
 
 if not lines: #check that file has lines or not.If don't have lines,print as something went wrong
     print("Something went wrong")
-    exit() #after print statement,exist from txt file
+    exit() #exist after occur
 
 marks_lines=lines[1:] #assign lines from 2nd line to last line for marks_lines
 
