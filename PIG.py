@@ -11,12 +11,15 @@ elif user_wish=="yes":
     while True:
         user_random=random.randint(1,6)
         user_random=int(user_random)
+
+        
         print("your luck number is:",user_random)
         if user_random==1:
             print("Now play the computer! your score is:",user_score)
             computer_random=random.randint(1,6)
             computer_random=int(computer_random)
             print("computer luck number is:",computer_random)
+            
             if computer_random==1:
                 print("Now your turn!computer score is:",computer_score)
                 

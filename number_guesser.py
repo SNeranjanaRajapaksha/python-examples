@@ -12,7 +12,7 @@ else:
     print('Please type a number next time.')
     quit()
 
-random_number = random.randint(0, top_of_range)
+random_number = random.randint(0, top_of_range) #special thing for me in this code
 guesses = 0
 
 while True:
