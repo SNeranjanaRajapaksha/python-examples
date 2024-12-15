@@ -1,6 +1,6 @@
 import random
 
-
+# Roll the dice
 def roll():
     min_value = 1
     max_value = 6
@@ -8,7 +8,7 @@ def roll():
 
     return roll
 
-
+# Get the number of players
 while True:
     players = input("Enter the number of players (2 - 4): ")
     if players.isdigit():
@@ -23,6 +23,7 @@ while True:
 max_score = 50
 player_scores = [0 for _ in range(players)]
 
+# Game loop
 while max(player_scores) < max_score:
     for player_idx in range(players):
         print("\nPlayer number", player_idx + 1, "turn has just started!")
